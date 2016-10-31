@@ -9,7 +9,7 @@ npm install redux-simple-localstorage1
 
 #Usage
 
-```
+```javascript
 import {applyMiddleware,compose,createStore} from "redux"
 import reducer from './reducers/index.js'
 import logger from 'redux-logger'
@@ -30,7 +30,7 @@ export function configureStore(initialState){
 #API
 
 ```
-saveStore('The name LocalStorage key ')
+saveStore('Choose a name for LocalStorage key ')
 initial('Just pass the initialState of your application')
 ```
 
