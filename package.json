@@ -1,0 +1,24 @@
+{
+  "name": "redux-simple-localstorage1",
+  "version": "1.0.1",
+  "description": "easy to implement",
+  "main": "./src/simplePersist.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasonWang01/Redux-LocalStorage.git"
+  },
+  "keywords": [
+    "Redux",
+    "React",
+    "LocalStorage"
+  ],
+  "author": "EasonWang01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EasonWang01/Redux-LocalStorage/issues"
+  },
+  "homepage": "https://github.com/EasonWang01/Redux-LocalStorage#readme"
+}
