@@ -16,12 +16,11 @@ import thunk from 'redux-thunk'
 import { saveStore, initial } from 'redux-simple-localstorage1'
 
 let finalCreateStore = compose(
-	applyMiddleware(thunk, logger(), saveStore('reduxStore'))
-	)(createStore)
+  applyMiddleware(thunk, logger(), saveStore('reduxStore'))
+)(createStore);
 
 export function configureStore(initialState){
-
-	return finalCreateStore(reducer, initial(initialState))
+  return finalCreateStore(reducer, initial(initialState))
 }
 
 ```
@@ -39,5 +38,5 @@ initial('Just pass the initialState of your application.')
 # Then
 
 ```
-Your store will be in the LocalStorage
+Your store is now saved in the LocalStorage.
 ```
