@@ -9,19 +9,19 @@ npm install redux-simple-localstorage1
 # Usage
 
 ```javascript
-import {applyMiddleware,compose,createStore} from "redux"
+import {applyMiddleware, compose, createStore} from "redux"
 import reducer from './reducers/index.js'
 import logger from 'redux-logger'
 import thunk from 'redux-thunk'
 import { saveStore, initial } from 'redux-simple-localstorage1'
 
 let finalCreateStore = compose(
-	applyMiddleware(thunk,logger(),saveStore('reduxStore'))
+	applyMiddleware(thunk, logger(), saveStore('reduxStore'))
 	)(createStore)
 
 export function configureStore(initialState){
 
-	return finalCreateStore(reducer,initial(initialState))
+	return finalCreateStore(reducer, initial(initialState))
 }
 
 ```
