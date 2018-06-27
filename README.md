@@ -27,10 +27,13 @@ export function configureStore(initialState){
 ```
 
 # API
-
+- saveStore
+```js
+saveStore('Choose a name for LocalStorage key.');
 ```
-saveStore('Choose a name for LocalStorage key ')
-initial('Just pass the initialState of your application')
+- initial
+```js
+initial('Just pass the initialState of your application.')
 ```
 
 # Then
