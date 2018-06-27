@@ -1,13 +1,12 @@
 # Redux-LocalStorage
-easy to implement
+Feature for easy to implement.
 
-
-#Install
+# Install
 ```
 npm install redux-simple-localstorage1
 ```
 
-#Usage
+# Usage
 
 ```javascript
 import {applyMiddleware,compose,createStore} from "redux"
@@ -27,14 +26,14 @@ export function configureStore(initialState){
 
 ```
 
-#API
+# API
 
 ```
 saveStore('Choose a name for LocalStorage key ')
 initial('Just pass the initialState of your application')
 ```
 
-#Then
+# Then
 
 ```
 Your store will be in the LocalStorage
